@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_gravity="center_horizontal"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:id="@+id/tvTitle"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="@string/whould_you_like_to_rate_app"
+        android:layout_height="wrap_content" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:numStars="5"
+        android:stepSize="0"
+        android:layout_gravity="center_horizontal"
+        style="@style/myRatingBar"
+        android:id="@+id/ratingBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/TextSmallMedium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:alpha="0.5"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/cancel"
+            android:textColor="#d65567"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnRate"
+            style="@style/TextSmallMedium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/rate"
+            android:textStyle="bold"
+            android:textColor="#F50F35"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

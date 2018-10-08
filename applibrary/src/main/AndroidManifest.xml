@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:replace="label"
+android:allowBackup="false"
+android:label="some name"
+package="com.ucan.applibrary">
+
+<application
+    android:allowBackup="true"
+    android:supportsRtl="true">
+
+</application>
+
+</manifest>
