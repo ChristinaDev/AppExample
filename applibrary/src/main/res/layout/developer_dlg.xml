@@ -17,7 +17,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="left"
+        android:gravity="start"
         android:textSize="18sp"
         android:textStyle="bold"
         android:text="@string/send_feedback_title" />
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="right"
+        android:gravity="end"
         android:paddingTop="8dp"
         android:layout_marginTop="8dp">
 
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:textSize="14sp"
+            android:textSize="18sp"
             android:alpha="0.5"
             android:minWidth="20dp"
             android:padding="8dp"
@@ -48,7 +48,7 @@
             android:minWidth="20dp"
             android:padding="8dp"
             android:background="@null"
-            android:textSize="14sp"
+            android:textSize="18sp"
             android:text="@string/send_feedback"/>
 
     </LinearLayout>
