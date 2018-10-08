@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppLibrary</string>
+    <string name="send_feedback_title">إرسال ملاحظات إلى المطور..</string>
+    <string name="title_rating_pref">هل تعجبك</string>
+    <string name="title_rating_suf">من فضلك ساعدنا بخمسة نجوم</string>
+    <string name="send_feedback">إرسال الملاحظات</string>
+    <string name="cancel">"إلغاء "</string>
+    <string name="rate">تقييم</string>
+    <string name="whould_you_like_to_rate_app">من فضلك ساعدنا بخمسة نجوم</string>
+    <string name="send_via">إرسال البريد الكتروني عبر</string>
+</resources>
